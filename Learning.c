@@ -51,3 +51,7 @@ int main()
 
     return 0;
 }
+
+
+// here we write using the functions method find which is grater and in given both values
+// by user input method also using ternary operator in it 
