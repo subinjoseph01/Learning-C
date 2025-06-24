@@ -1,71 +1,53 @@
 #include <stdio.h>
+#include <string.h>
 
-float add(float a, float b)
+void pepsi(int a, int b)
 {
-    float result = a+b;
-    return result;
+
+    int ram = (a > b) ? a : b;
+
+    printf("%d is the highest value here ", ram);
 }
 
-float substract(float a, float b)
+void annachi(int c)
 {
-    float result = a-b;
-    return result;
-}
-float multiply(float a, float b)
-{
-    float result = a*b;
-    return result;
-}
-float division(float a, float b)
-{
-     float result = a/b;
-    return result;
+    int lal = c;
+
+    printf(" \n my age is %d ", lal);
 }
 
-float toget()
+void kalli(char joy[20])
 {
-
-    float num1;
-    float num2;
-    float result;
-    char hey;
-
-    printf(" Pick one +, - , * , / : ");
-    scanf("%c", &hey);
-
-    printf("Enter a value A = ");
-    scanf("%f", &num1);
-
-    printf("Enter a value B = ");
-    scanf("%f", &num2);
-
-    switch (hey)
-    {
-    case '+':
-        result = add(num1, num2);
-        break;
-
-    case '-':
-        result = substract(num1, num2);
-        break;
-
-    case '*':
-        result = multiply(num1, num2);
-        break;
-
-    case '/':
-        result = division(num1, num2);
-        break;
-    default:
-        printf("Enter a proper value MR");
-        return 0;
-    }
-    return result;
+    char vijay[20];
+    strcpy(vijay, joy);
+    printf("\n my name is %s", vijay);
 }
 
 int main()
-{
 
-    float finalAns= toget();
-    printf("The answer is %f",finalAns);
+{
+    int a;
+    int b;
+    int c;
+    char joy[20];
+
+    printf(" Enter the value of A :");
+    scanf("%d", &a);
+
+    printf(" Enter the value of B :");
+    scanf("%d", &b);
+    getchar();
+
+    printf("Enter your age : ");
+    scanf("%d", &c);
+    getchar();
+
+    printf("my name is :");
+    fgets(joy, 20, stdin);
+
+    pepsi(a, b);
+    annachi(c);
+    kalli(joy);
+
+    return 0;
 }
