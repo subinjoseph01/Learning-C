@@ -16,7 +16,7 @@ void annachi(int c)
     printf(" \n my age is %d ", lal);
 }
 
-void kalli(char joy[20])
+void key(char joy[20])
 {
     char vijay[20];
     strcpy(vijay, joy);
@@ -47,7 +47,7 @@ int main()
 
     pepsi(a, b);
     annachi(c);
-    kalli(joy);
+    key(joy);
 
     return 0;
 }
