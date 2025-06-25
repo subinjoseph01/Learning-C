@@ -1,11 +1,11 @@
 
-// Here we are learning about LOOP concept 
+// Here we are learning about LOOP concept
 
-// we have 3 types of Loop here 
+// we have 3 types of Loop here
 // They are
-// 1) For Loop 
+// 1) For Loop
 // 2) while loop
-// 3) do while loop 
+// 3) do while loop
 
 // For LOOP
 // For loop concept
@@ -15,12 +15,23 @@
 #include <stdio.h>
 
 int main()
-{
 
-for(int i=5; i>0; i--)
 {
-printf("%d \n",i);
+    for(int r=5; r<=30; r++)
+    {
+        if(r%5 ==0 && r%3==0)
+        {
+            printf("%d\n",r);
+        }
+    }
 }
 
-}
+// to push the git file
+// git add .
+// git commit -m "anything you wish to type"
+//
+//  Git push
 
+// Note: In the line of 20th you can find  r<20 but when we print we get till number 19 . but
+// to get till same num 20 we need to use a = in it
+// befor (r<20) after (r<=20)
