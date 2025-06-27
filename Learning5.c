@@ -14,5 +14,5 @@ int main()
     return 0;
 }
 
-// Here we wrote a code how to find odd number !
+// Here we wrote a code how to find odd numbers from 1 to 100 !
 // using For loop and if concept
