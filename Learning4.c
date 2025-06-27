@@ -17,3 +17,8 @@ int main()
 
     return 0;
 }
+
+
+// using the user input we have  executed the table 
+
+// using for loop method
