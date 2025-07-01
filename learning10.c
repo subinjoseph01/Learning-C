@@ -21,3 +21,5 @@ int main()
 }
 
 // how to print even numbers using while loop up to 20 
+
+// while loop
