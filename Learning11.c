@@ -34,4 +34,4 @@ int main()
 
 // in for - cindition comes inside the bracket as (vaiable , condition , operation)
 // in while - only condition comes inside the bracket others out side 
-// in do while - condition comes in last in while and rest in out side 
+// in do while - condition comes in last in while and rest in out side

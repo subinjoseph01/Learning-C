@@ -30,6 +30,8 @@ int main()
     }
 }
 
+
+
 // Notes :
 
 // 1) Here according to the first loop it indicates how many numbers will print  Eg=1,2,3 etc
