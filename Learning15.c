@@ -12,3 +12,8 @@ int main()
 
     return 0;
 }
+
+
+// using the concept of for loop 
+
+// we printed array 
