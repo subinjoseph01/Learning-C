@@ -43,4 +43,4 @@ for (int r=0; r<row; r++)
 
 
 
-// Here we did 2d array using for loop and printed  using size of bytes suucessfully
+// Here we did 2d array using for nested -loop and printed  using size of bytes suucessfully
