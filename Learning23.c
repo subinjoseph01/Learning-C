@@ -14,3 +14,5 @@ printf("%s",sara);
 
 }
 
+// Here we have done how to use type defenition in characters of array (string form )
+
