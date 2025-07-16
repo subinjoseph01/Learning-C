@@ -20,3 +20,6 @@ int main()
     int *ella = &aye;
     cora(ella);
 }
+
+// here we have done 
+// using the user input we took a value and find the value address and printed value 
