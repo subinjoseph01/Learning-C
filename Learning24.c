@@ -18,3 +18,6 @@ int main()
 
     printf("%f", zoy.maggie);
 }
+
+
+// Here we have combined type defenition and structure and printed double 

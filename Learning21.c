@@ -1,4 +1,4 @@
-// structure in c
+                              //Title :  structure .
 
 //     A struct in C is a special container that lets you group different types of variables
 //      together under one name.
@@ -39,6 +39,11 @@ printf("The answer is : %s",zayan.rey);
 
 
 }
+
+
+// Sturce is nothing but we can store more datatypes under one single vaiable
+
+
 
 
 
