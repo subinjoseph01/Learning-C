@@ -19,3 +19,5 @@ raju boss = {23,"war"};
 printf("%d",boss.ray);
 
 }
+
+// here we have used type defention and structure .
