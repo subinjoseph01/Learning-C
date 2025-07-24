@@ -35,6 +35,7 @@ struct zara zayan ;
 printf("Enter a value : ");
 fgets(zayan.rey,70,stdin);
 
+
 printf("The answer is : %s",zayan.rey);
 
 
